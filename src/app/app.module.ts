@@ -14,6 +14,7 @@ const appRoutes: Routes = [
   path: 'home',
   loadChildren: './home/home.module#HomeModule'
 },
+
 {
   path:'profile',
   loadChildren:'./profile/profile.module#ProfileModule'
