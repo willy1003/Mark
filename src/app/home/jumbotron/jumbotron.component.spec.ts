@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TimelineComponent } from './timeline.component';
+import { JumbotronComponent } from './jumbotron.component';
 
-describe('TimelineComponent', () => {
-  let component: TimelineComponent;
-  let fixture: ComponentFixture<TimelineComponent>;
+describe('JumbotronComponent', () => {
+  let component: JumbotronComponent;
+  let fixture: ComponentFixture<JumbotronComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TimelineComponent ]
+      declarations: [ JumbotronComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(TimelineComponent);
+    fixture = TestBed.createComponent(JumbotronComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

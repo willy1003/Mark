@@ -1,12 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomeComponent } from './home.component';
-import { CardComponent } from './card/card.component';
-import { TitleComponent } from './title/title.component';
-import { SynopsisComponent } from './synopsis/synopsis.component';
-import { ContactinfoComponent } from './contactinfo/contactinfo.component';
-import { TimelineComponent } from './timeline/timeline.component';
 import { Routes, RouterModule } from '@angular/router';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { FeaturesComponent } from './features/features.component';
 
 const appRoutes: Routes=[
 {
@@ -16,10 +13,8 @@ const appRoutes: Routes=[
 }
 ]
 
-
-
 @NgModule({
-  declarations: [HomeComponent, CardComponent, TitleComponent, SynopsisComponent, ContactinfoComponent, TimelineComponent],
+  declarations: [HomeComponent, JumbotronComponent, FeaturesComponent],
   imports: [
     CommonModule,
   	RouterModule.forChild(appRoutes)
