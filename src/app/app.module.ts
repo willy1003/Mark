@@ -7,7 +7,7 @@ import { HomeModule } from './home/home.module'; //*new
 import { ProfileModule } from './profile/profile.module'; //*new
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DragDropModule } from '@angular/cdk/drag-drop'; //*new drag and drop'
-
+import { HttpClientModule } from '@angular/common/http'
 
 const appRoutes: Routes = [
 {
@@ -39,6 +39,7 @@ const appRoutes: Routes = [
     ProfileModule,
     RouterModule.forRoot(appRoutes),
     BrowserAnimationsModule, //*new
+    HttpClientModule
 
   ],
   providers: [],

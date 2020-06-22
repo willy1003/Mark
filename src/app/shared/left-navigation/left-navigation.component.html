@@ -36,13 +36,16 @@
             </ul> 	
             	
 <ul class="uk-iconnav uk-iconnav-vertical">
-    <li><a href="#" uk-icon="icon: plus"></a></li>
-    <li><a href="#" uk-icon="icon: file-edit"></a></li>
-    <li><a href="#" uk-icon="icon: copy"></a></li>
-    <li><a href="#" uk-icon="icon: trash"></a></li>
+    <li     routerLinkActive="uk-active"><a [routerLink]="['/home']">Home</a></li>
+    <li routerLinkActive="uk-active"><a [routerLink]="['/profile']" routerLinkActive="uk-active"> Profile</a></li>
+    <li><button class="uk-button uk-button-danger uk-margin-top">Sign-out</button></li>
 </ul>           
                 
                
+
+
+
+
 
  
 
