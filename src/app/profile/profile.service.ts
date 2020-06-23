@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class ProfileService {
-DJANGO_SERVER = '127.0.0.1:8000'
+DJANGO_SERVER = 'http://127.0.0.1:8000'
   
   constructor(
   private http: HttpClient
