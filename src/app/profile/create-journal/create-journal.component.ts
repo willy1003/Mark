@@ -32,7 +32,7 @@ export class CreateJournalComponent implements OnInit {
   });
 
 }
-  creatJournalFormSubmit() {
+  createJournalFormSubmit() {
   	const formData = this.createJournalForm.getRawValue();
   	this.ProfileService.createJournal(formData).subscribe((res)=> {
   		console.log(res);
